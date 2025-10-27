@@ -55,8 +55,7 @@ object PreferencesConstants {
     const val PREFERENCE_DRAG_AND_DROP_PREFERENCE = "dragAndDropPreference"
     const val PREFERENCE_DRAG_AND_DROP_REMEMBERED = "dragOperationRemembered"
     const val PREFERENCE_LANGUAGE = "language"
-
-    const val PREFERENCE_HIDEAMAZEWARE = "hideAmazeware"
+    const val PREFERENCE_HIDE_AMAZEWARE = "hideAmazeware"
 
     // drag and drop
     const val PREFERENCE_DRAG_DEFAULT = 0

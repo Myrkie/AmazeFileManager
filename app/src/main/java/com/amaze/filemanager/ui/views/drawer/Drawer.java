@@ -23,7 +23,7 @@ package com.amaze.filemanager.ui.views.drawer;
 import static com.amaze.filemanager.filesystem.ftp.NetCopyClientConnectionPool.FTPS_URI_PREFIX;
 import static com.amaze.filemanager.filesystem.ftp.NetCopyClientConnectionPool.FTP_URI_PREFIX;
 import static com.amaze.filemanager.filesystem.ftp.NetCopyClientConnectionPool.SSH_URI_PREFIX;
-import static com.amaze.filemanager.ui.fragments.preferencefragments.PreferencesConstants.PREFERENCE_HIDEAMAZEWARE;
+import static com.amaze.filemanager.ui.fragments.preferencefragments.PreferencesConstants.PREFERENCE_HIDE_AMAZEWARE;
 import static com.amaze.filemanager.ui.fragments.preferencefragments.PreferencesConstants.PREFERENCE_SHOW_SIDEBAR_FOLDERS;
 import static com.amaze.filemanager.ui.fragments.preferencefragments.PreferencesConstants.PREFERENCE_SHOW_SIDEBAR_QUICKACCESSES;
 
@@ -541,7 +541,7 @@ public class Drawer implements NavigationView.OnNavigationItemSelectedListener {
             }),
         R.drawable.ic_ftp_white_24dp,
         null);
-    if (!mainActivity.getBoolean(PREFERENCE_HIDEAMAZEWARE)) {
+    if (!mainActivity.getBoolean(PREFERENCE_HIDE_AMAZEWARE)) {
       addNewItem(
               menu,
               LASTGROUP,

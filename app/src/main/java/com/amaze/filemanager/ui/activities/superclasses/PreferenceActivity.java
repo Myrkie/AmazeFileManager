@@ -26,7 +26,7 @@ import static com.amaze.filemanager.ui.fragments.preferencefragments.Preferences
 import static com.amaze.filemanager.ui.fragments.preferencefragments.PreferencesConstants.PREFERENCE_COLORIZE_ICONS;
 import static com.amaze.filemanager.ui.fragments.preferencefragments.PreferencesConstants.PREFERENCE_DISABLE_PLAYER_INTENT_FILTERS;
 import static com.amaze.filemanager.ui.fragments.preferencefragments.PreferencesConstants.PREFERENCE_ENABLE_MARQUEE_FILENAME;
-import static com.amaze.filemanager.ui.fragments.preferencefragments.PreferencesConstants.PREFERENCE_HIDEAMAZEWARE;
+import static com.amaze.filemanager.ui.fragments.preferencefragments.PreferencesConstants.PREFERENCE_HIDE_AMAZEWARE;
 import static com.amaze.filemanager.ui.fragments.preferencefragments.PreferencesConstants.PREFERENCE_NEED_TO_SET_HOME;
 import static com.amaze.filemanager.ui.fragments.preferencefragments.PreferencesConstants.PREFERENCE_ROOTMODE;
 import static com.amaze.filemanager.ui.fragments.preferencefragments.PreferencesConstants.PREFERENCE_ROOT_LEGACY_LISTING;
@@ -96,7 +96,7 @@ public class PreferenceActivity extends BasicActivity {
       case PREFERENCE_TEXTEDITOR_NEWSTACK:
       case PREFERENCE_CHANGEPATHS:
       case PREFERENCE_ROOT_LEGACY_LISTING:
-      case PREFERENCE_DISABLE_PLAYER_INTENT_FILTERS, PREFERENCE_HIDEAMAZEWARE:
+      case PREFERENCE_DISABLE_PLAYER_INTENT_FILTERS, PREFERENCE_HIDE_AMAZEWARE:
         defaultValue = false;
         break;
       case PREFERENCE_SHOW_FILE_SIZE:
