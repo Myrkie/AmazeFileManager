@@ -322,6 +322,20 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/provider_paths" />
         </provider>
+
+        <provider
+            android:name="com.amaze.filemanager.filesystem.root.RootDocumentsProvider"
+            android:authorities="com.amaze.filemanager.documents"
+            android:exported="true"
+            android:grantUriPermissions="true"
+            android:enabled="true"
+            android:permission="android.permission.MANAGE_DOCUMENTS">
+            <intent-filter>
+                <action android:name="android.content.action.DOCUMENTS_PROVIDER"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </provider>
+
     </application>
 
 </manifest>

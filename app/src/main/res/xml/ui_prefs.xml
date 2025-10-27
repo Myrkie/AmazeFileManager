@@ -39,6 +39,13 @@
         <Preference
             app:key="sidebar_quick_access"
             app:title="@string/show_quick_access_pref" />
+        <com.amaze.filemanager.ui.views.preference.CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:defaultValue="false"
+            app:key="hideAmazeware"
+            app:summary="@string/hide_amazeware_summary"
+            app:title="@string/hide_amazeware_title" />
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/advanced">
         <com.amaze.filemanager.ui.views.preference.CheckBox

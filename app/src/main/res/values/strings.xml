@@ -852,5 +852,7 @@ You only need to do this once, until the next time you select a new location for
     <string name="trash_bin_cleanup_interval_title">Cleanup interval</string>
     <string name="trash_bin_cleanup_interval_summary">Trigger auto-cleanup interval (hours)</string>
     <string name="file_deletion">File Deletion</string>
+    <string name="hide_amazeware_summary">Hides Team Amaze extras</string>
+    <string name="hide_amazeware_title">Hide Amazeware Extras</string>
 </resources>
 
